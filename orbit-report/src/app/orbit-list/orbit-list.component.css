@@ -1,0 +1,49 @@
+.sortable {
+    cursor: pointer;
+    color: #dd5;
+}
+
+.warning {
+    background-color: #da8a8a;
+}
+
+table {
+    color: #111;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 12px 12px;
+    min-width: 1000px;
+    background: #dad8d8;
+    padding: 10px;
+}
+
+.header-row {
+    background: #34495E;
+    color: #fff
+}
+
+th,
+td {
+    text-align: left;
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+.center {
+    margin: auto;
+    width: 80%;
+    border: 3px solid #34495E;
+    padding: 50px;
+}
+
+h1 {
+    color: #34495E;
+    font-weight: bold;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.warning {
+    background-color: red;
+}
