@@ -1,3 +1,7 @@
+.even {
+    background-color: green;
+}
+
 .sortable {
     cursor: pointer;
     color: #dd5;
@@ -29,11 +33,14 @@ td {
     padding: 10px;
 }
 
+.odd {
+    background-color: #66ff66;
+}
+
 .center {
     margin: auto;
     width: 80%;
-    border: 3px solid #34495E;
-    padding: 50px;
+    padding: 40px;
 }
 
 h1 {

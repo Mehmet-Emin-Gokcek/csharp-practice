@@ -2,19 +2,22 @@
     <h1>Orbit Report</h1>
     <table>
         <tr class="header-row">
-            <th class="sortable">Name</th>
-            <th class="sortable">Type</th>
+            <th class="sortable" (click)="sort('name')">Name</th>
+            <th class="sortable" (click)="sort('type')">Type</th>
             <th>Operational</th>
             <th>Orbit Type</th>
             <th>Launch Date</th>
         </tr>
-        <!-- TODO: put <tr *ngFor=""></tr> here -->
-        <tr *ngFor="let satellite of satellites">
+        <!-- TODO: put <tr *ngFor=" "></tr> here -->
+        <tr [class.odd]="i % 2 !== 0" *ngFor=" let satellite of satellites; index as i ">
             <td>{{satellite.name}}</td>
-            <td [class.warning]='satellite.warning'>{{satellite.type}}</td>
+            <td [class.warning]='satellite.warning '>{{satellite.type}}</td>
             <td>{{satellite.operational}}</td>
             <td>{{satellite.orbitType}}</td>
             <td>{{satellite.launchDate}}</td>
         </tr>
     </table>
-</div>>
+    <p class="center">
+        <span *ngIf="satellites.length === 0"><h1>No record found!</h1> </span>
+        <p>
+</div>
