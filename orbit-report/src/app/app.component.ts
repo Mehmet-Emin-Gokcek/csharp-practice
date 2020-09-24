@@ -24,6 +24,7 @@ export class AppComponent {
 
 constructor() {
   this.sourceList = [];
+  this.displayList = [];
   
   let satellitesUrl = 'https://handlers.education.launchcode.org/static/satellites.json';
 

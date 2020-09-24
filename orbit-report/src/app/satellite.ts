@@ -5,6 +5,7 @@ export class Satellite {
     operational: boolean;
     launchDate: string;
     warning: boolean;
+    count: number;
 
     constructor(name: string, type: string, launchDate: string, orbitType: string, operational: boolean) {
         this.name = name;
@@ -13,6 +14,7 @@ export class Satellite {
         this.operational = operational;
         this.launchDate = launchDate;
         this.warning = this.shouldShowWarning(type);
+        this.count = 0;
     }
     shouldShowWarning(satelliteType: string): boolean{
         if (satelliteType.toUpperCase() === 'SPACE DEBRIS') {

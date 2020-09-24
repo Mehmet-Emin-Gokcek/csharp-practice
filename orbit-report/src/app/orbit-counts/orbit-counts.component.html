@@ -1,0 +1,6 @@
+<h3>Satellite Counts:</h3>
+<div class="counts">
+    <div>Total: <span>{{satelliteList.length}}</span></div>
+    <div *ngFor="let satellite of orbitCount()">
+        {{satellite.type}}: <span>{{satellite.count}}</span>
+    </div>
