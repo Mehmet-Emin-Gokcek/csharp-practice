@@ -1,0 +1,13 @@
+C:\Users\aldi\Documents\csharp-practice\Studio2_Counting_Characters\bin\Debug\netcoreapp3.1\Studio2_Counting_Characters.exe
+C:\Users\aldi\Documents\csharp-practice\Studio2_Counting_Characters\bin\Debug\netcoreapp3.1\Studio2_Counting_Characters.deps.json
+C:\Users\aldi\Documents\csharp-practice\Studio2_Counting_Characters\bin\Debug\netcoreapp3.1\Studio2_Counting_Characters.runtimeconfig.json
+C:\Users\aldi\Documents\csharp-practice\Studio2_Counting_Characters\bin\Debug\netcoreapp3.1\Studio2_Counting_Characters.runtimeconfig.dev.json
+C:\Users\aldi\Documents\csharp-practice\Studio2_Counting_Characters\bin\Debug\netcoreapp3.1\Studio2_Counting_Characters.dll
+C:\Users\aldi\Documents\csharp-practice\Studio2_Counting_Characters\bin\Debug\netcoreapp3.1\Studio2_Counting_Characters.pdb
+C:\Users\aldi\Documents\csharp-practice\Studio2_Counting_Characters\obj\Debug\netcoreapp3.1\Studio2_Counting_Characters.csprojAssemblyReference.cache
+C:\Users\aldi\Documents\csharp-practice\Studio2_Counting_Characters\obj\Debug\netcoreapp3.1\Studio2_Counting_Characters.AssemblyInfoInputs.cache
+C:\Users\aldi\Documents\csharp-practice\Studio2_Counting_Characters\obj\Debug\netcoreapp3.1\Studio2_Counting_Characters.AssemblyInfo.cs
+C:\Users\aldi\Documents\csharp-practice\Studio2_Counting_Characters\obj\Debug\netcoreapp3.1\Studio2_Counting_Characters.dll
+C:\Users\aldi\Documents\csharp-practice\Studio2_Counting_Characters\obj\Debug\netcoreapp3.1\Studio2_Counting_Characters.pdb
+C:\Users\aldi\Documents\csharp-practice\Studio2_Counting_Characters\obj\Debug\netcoreapp3.1\Studio2_Counting_Characters.genruntimeconfig.cache
+C:\Users\aldi\Documents\csharp-practice\Studio2_Counting_Characters\obj\Debug\netcoreapp3.1\Studio2_Counting_Characters.csproj.CoreCompileInputs.cache
