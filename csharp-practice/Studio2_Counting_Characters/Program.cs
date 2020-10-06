@@ -17,18 +17,18 @@ namespace Studio2_Counting_Characters
 
             if (text.Length > 0) {
                 Console.WriteLine("User Input Successfull!\n------------------------");
-                Thread.Sleep(2000);
+                Thread.Sleep(1000);//adding 1000ms delay to provide a better user experience
             }
 
-            // Set a variable to the Documents path.
+            // Set a generic variable to the Documents path.
             string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
 
-            // Append the user input  to a file named "textData.txt".
-            using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, "textData.txt"), false))
+            // Append the user input to a file named "textData.txt".
+            using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, "textData.txt"), false)) //false clears previous content
             {
                 outputFile.WriteLine(text);
                 Console.WriteLine($"Text Data successfully saved to textData.txt file at {docPath}\n------------------------");
-                Thread.Sleep(2000);
+                Thread.Sleep(1000); //adding 1000ms delay to provide a better user experience
             }
 
 
@@ -38,25 +38,26 @@ namespace Studio2_Counting_Characters
                 using (var str = new StreamReader(Path.Combine(docPath, "textData.txt")))
                 {
                     Console.WriteLine($"Attempting to read contents of textData.txt file at {docPath}\n------------------------");
-                    Thread.Sleep(2000);
+                    Thread.Sleep(1000);
 
                     // Read the stream as a string, and write the string to the console.
                     String newStr = (str.ReadToEnd());
 
                     //Remove white space and non-alphabetic numbers
                     String trimmedText = Regex.Replace(newStr, "[^a-zA-Z]", String.Empty);
-/*                    Console.WriteLine("trimmedText: " + trimmedText);
-*/
+
                     //Convert the string to char array
                     char[] charText = trimmedText.ToCharArray();
-/*                    Console.WriteLine("CharText.length:" + charText.Length);
-*/
+
                     if (charText.Length > 0) {
+
                         Console.WriteLine("textData.txt file contents have been read successfully.\n------------------------");
-                        Thread.Sleep(2000);
+                        Thread.Sleep(1000);
+
                         Console.WriteLine("See below for results!\n------------------------");
-                        Thread.Sleep(2000);
+                        Thread.Sleep(1000);
                     }
+
                     //Iterate thru the char array to print the char array elements 
                     for (int i = 0; i < charText.Length; i++)
                     {
