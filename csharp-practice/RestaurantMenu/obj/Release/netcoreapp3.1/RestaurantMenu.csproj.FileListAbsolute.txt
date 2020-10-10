@@ -1,0 +1,13 @@
+C:\Users\aldi\Documents\csharp-practice\RestaurantMenu\bin\Release\netcoreapp3.1\RestaurantMenu.exe
+C:\Users\aldi\Documents\csharp-practice\RestaurantMenu\bin\Release\netcoreapp3.1\RestaurantMenu.deps.json
+C:\Users\aldi\Documents\csharp-practice\RestaurantMenu\bin\Release\netcoreapp3.1\RestaurantMenu.runtimeconfig.json
+C:\Users\aldi\Documents\csharp-practice\RestaurantMenu\bin\Release\netcoreapp3.1\RestaurantMenu.runtimeconfig.dev.json
+C:\Users\aldi\Documents\csharp-practice\RestaurantMenu\bin\Release\netcoreapp3.1\RestaurantMenu.dll
+C:\Users\aldi\Documents\csharp-practice\RestaurantMenu\bin\Release\netcoreapp3.1\RestaurantMenu.pdb
+C:\Users\aldi\Documents\csharp-practice\RestaurantMenu\obj\Release\netcoreapp3.1\RestaurantMenu.csprojAssemblyReference.cache
+C:\Users\aldi\Documents\csharp-practice\RestaurantMenu\obj\Release\netcoreapp3.1\RestaurantMenu.AssemblyInfoInputs.cache
+C:\Users\aldi\Documents\csharp-practice\RestaurantMenu\obj\Release\netcoreapp3.1\RestaurantMenu.AssemblyInfo.cs
+C:\Users\aldi\Documents\csharp-practice\RestaurantMenu\obj\Release\netcoreapp3.1\RestaurantMenu.csproj.CoreCompileInputs.cache
+C:\Users\aldi\Documents\csharp-practice\RestaurantMenu\obj\Release\netcoreapp3.1\RestaurantMenu.dll
+C:\Users\aldi\Documents\csharp-practice\RestaurantMenu\obj\Release\netcoreapp3.1\RestaurantMenu.pdb
+C:\Users\aldi\Documents\csharp-practice\RestaurantMenu\obj\Release\netcoreapp3.1\RestaurantMenu.genruntimeconfig.cache
